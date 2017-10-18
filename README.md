@@ -3,6 +3,21 @@
 Adds drag and drop support for Matlab (as a proxy on top of [java.awt.dnd.DropTarget](https://docs.oracle.com/javase/7/docs/api/java/awt/dnd/DropTarget.html))
 
 ```matlab
+%
+% PURPOSE:
+%
+%   Show how to add drop support from file explorer to some matlab axis.
+%
+% SYNTAX:
+%
+%   [] = DropListenerDemo();
+%
+% USAGE:
+%
+%   Simply drop files from file explorer into displayed axis.
+%
+
+%%
 function [] = DropListenerDemo()
 %[
     % Create a figure with some axis inside
